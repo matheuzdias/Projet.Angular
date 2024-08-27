@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="display-5">
+
+  </div>
+
+<table class="table">
+  <thead>
+
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Price</th>
+      <th scope="col">Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <th scope="row">{{product.id}}</th>
+      <td>{{product.name}}</td>
+      <td>{{product.price}}</td>
+      <td>{{product.category}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
