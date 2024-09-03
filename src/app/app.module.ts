@@ -4,12 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ProductComponent } from './product/product.component';
+import { ProdutcsTableComponent } from './produtcs-table/produtcs-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductComponent
+
+    ProdutcsTableComponent
   ],
   imports: [
     BrowserModule,
