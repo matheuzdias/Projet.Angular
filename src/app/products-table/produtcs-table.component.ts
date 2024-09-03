@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { Produtc } from '../produtc';
+import { Product } from '../produtc';
 
 @Component({
   selector: 'app-produtcs-table',
   templateUrl: './produtcs-table.component.html',
   styleUrl: './produtcs-table.component.css'
 })
-export class ProdutcsTableComponent {
-  products : Produtc [] = [
+export class ProductsTableComponent {
+  products : Product [] = [
     { "id" : 1,
       "name" : "Computador i7",
       "price" : 6000.00,
