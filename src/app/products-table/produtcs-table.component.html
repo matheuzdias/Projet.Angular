@@ -12,6 +12,7 @@
       <th scope="col">Name</th>
       <th scope="col">Price</th>
       <th scope="col">Category</th>
+      <th scope="col">Options</th>
     </tr>
   </thead>
   <tbody>
@@ -20,6 +21,7 @@
       <td>{{product.name}}</td>
       <td>{{product.price}}</td>
       <td>{{product.category}}</td>
+      <td><button class="btn btn-danger" (click)="delete(product)">Remove</button> </td>
     </tr>
   </tbody>
 </table>
