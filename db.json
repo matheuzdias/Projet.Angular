@@ -1,19 +1,22 @@
 {
   "products": [
-    { "id" : 1,
-    "name" : "Computador i7",
-    "price" : 6000.00,
-    "category" : "Eletrônicos"
-  },
-  { "id" : 1,
-    "name" : "Geladeira Brastemp",
-    "price" : 5000.00,
-    "category" : "Eletrônicos"
-  },
-  { "id" : 1,
-    "name" : "Iphone 15",
-    "price" : 4000.00,
-    "category" : "Eletrônicos"
-  }
+    {
+      "id": 1,
+      "name": "Computador i9",
+      "price": 6000,
+      "category": "Eletrônicos"
+    },
+    {
+      "id": 1,
+      "name": "Geladeira Brastemp",
+      "price": 5000,
+      "category": "Eletrônicos"
+    },
+    {
+      "id": 1,
+      "name": "Iphone 15",
+      "price": 4000,
+      "category": "Eletrônicos"
+    }
   ]
 }

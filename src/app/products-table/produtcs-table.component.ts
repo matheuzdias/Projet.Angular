@@ -12,7 +12,7 @@ export class ProductsTableComponent implements OnInit{
 
   constructor(private service: ProductService){}
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.loadProducts();
   }
 

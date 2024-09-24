@@ -1,18 +1,19 @@
 <div class="container">
   <h1>Cadastro de produtos</h1>
+  <form [formGroup]="formGroupProduct">
   <div class="mb-3">
-    <form>
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <label for="exampleFormControlInput1" class="form-label">Name</label>
+      <input formControlName="name" type="text" class="form-control" id="name" placeholder="Enter your name">
   </div>
   <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <label for="exampleFormControlInput1" class="form-label">Price</label>
+    <input formControlName="price" type="text" class="form-control" id="price" placeholder="Enter the price">
   </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Category</label>
+    <input formControlName="category" type="text" class="form-control" id="category" placeholder="Enter the category">
+  </div>
+  <button type="button" class="btn btn-primary"(click)="update()">Save</button>
   </form>
 
 </div>

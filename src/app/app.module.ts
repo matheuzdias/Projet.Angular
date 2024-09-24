@@ -7,20 +7,22 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProductsTableComponent } from './products-table/produtcs-table.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductFormComponent } from './product-form/product-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     AppComponent,
 
-    ProductsTableComponent,
+ProductsTableComponent,
     ProductFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
